@@ -61,7 +61,7 @@
         <div class="col-md-6">
             <div class="card card-user">
               <div class="card-header">
-                <a href="index.php" class="btn btn-danger btn-round">Batal</a>
+                <a href="dashboard.php" class="btn btn-danger btn-round">Batal</a>
                 <h5 class="card-title">Daftar Vaksin</h5>
               </div>
               <div class="card-body">
