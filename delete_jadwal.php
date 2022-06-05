@@ -1,9 +1,5 @@
 <?php 
     session_start();  
-  
-    if($_SESSION['status_admin']!=true){
-      header('Location: vaksin/login.php');
-    }
     if($_GET['id_jadwal']){
         include "koneksi.php";
         $qry_hapus=mysqli_query($koneksi,"delete from jadwal1 where id_jadwal='".$_GET['id_jadwal']."'");

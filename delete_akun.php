@@ -1,9 +1,5 @@
 <?php 
     session_start();  
-  
-    if($_SESSION['status_admin']!=true){
-      header('location:login_admin.php?pesan=gagal');
-    }
     if($_GET['id']){
         include "koneksi.php";
         $qry_hapus=mysqli_query($koneksi,"delete from akun where id='".$_GET['id']."'");

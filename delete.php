@@ -1,10 +1,6 @@
 
 <?php 
     session_start();  
-  
-    if($_SESSION['status_admin']!=true){
-      header('Location:login_admin.php?pesan=gagal');
-    }
     if($_GET['id_siswa']){
         include "koneksi.php";
         $qry_hapus=mysqli_query($koneksi,"delete from siswa where id_siswa='".$_GET['id_siswa']."'");
