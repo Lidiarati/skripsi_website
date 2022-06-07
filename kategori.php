@@ -10,7 +10,7 @@ include('koneksi.php');
 <div class="row">
                 <div class="col-md-12">
                     <!-- Advanced Tables -->
-                    <h3><i class="fa-solid fa-hospital-user  mr-2" class ="btn btn-primary"></i>Jadwal Vaksinasi</h3><hr>
+                    <h3><i class="fa-solid fa-hospital-user  mr-2" class ="btn btn-primary"></i>Kategori Vaksin</h3><hr>
                     <a href="halaman.php?page=tambah_kategori"class ="btn btn-primary">Tambah Kategori</a>
                         <div class="panel-body">
                             <div class="table-responsive">
