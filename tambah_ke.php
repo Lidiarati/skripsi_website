@@ -6,10 +6,10 @@
   header("location:login_admin.php?pesan=gagal");
  }
 ?>
-<h3>Tambah Jadwal</h3>
+<h3>Tambah Dosis Vaksin</h3>
 <div class="panel panel-primary">
 <div class="panel-heading">
-    Tambah Jadwal
+    Tambah Dosis Vaksin
 </div>
 <div class="panel-body label-align"  >
     <div class="row">
